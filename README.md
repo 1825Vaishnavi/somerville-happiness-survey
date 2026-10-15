@@ -1,60 +1,61 @@
-# Somerville Happiness Survey: Nonresponse Correction & Wellbeing Drivers
+# Who Does the Somerville Happiness Survey Hear From?
 
-An independent analysis of the City of Somerville's Happiness Survey (2011–2025): checking who the survey hears from, correcting for nonresponse, and identifying what matters most to the city's least-happy residents.
+Every two years, the City of Somerville asks residents how happy they are and how they feel about life in the city. I wanted to know two things: does the survey hear from everyone fairly, and what matters most to the residents who are least happy?
 
- [Interactive Tableau dashboard (filterable by ward)](https://public.tableau.com/views/SomervilleHappinessSurveybyWard/Dashboard1)
-**📄 [6-page policy brief (PDF)](brief/)**
+This project uses all eight waves of the survey, from 2011 to 2025.
 
-*This is an independent analysis of public data, not an official City of Somerville report.*
+ **[Explore the interactive dashboard](https://public.tableau.com/views/SomervilleHappinessSurveybyWard/Dashboard1)** (you can filter by ward)
+ **[Read the 6-page brief](brief/)**
+
+*This is my own independent analysis of public data. It's not an official City of Somerville report.*
 
 ---
 
-## Key findings
+## What I found
 
-- **The survey under-represents young adults and renters.** In every wave, adults under 35 were under-represented by up to 20 percentage points and renters by up to 15.
-- **Weighting closed the gaps.** After raking to Census benchmarks, the survey matched the population within 0.1 point, with design effects of 1.09–1.28.
-- **One reported trend was mostly sample mix.** The decline in satisfaction with Somerville was significant unweighted (p = 0.0002) but not after weighting (p = 0.085), and the slope was cut in half.
-- **Five drivers matter most for the least-happy residents (2025):** housing condition, worry about being priced out, work opportunities, grocery access, and relief from summer heat, together 77% of modeled importance.
-- **Renters face these problems most.** 56% of renters are very worried about being priced out, vs. 19% of owners.
+**The survey doesn't hear enough from young adults and renters.** In every survey year, people under 35 and renters answered less often than their real share of the city. The gap was as big as 20 percentage points for young adults and 15 for renters.
 
-## Data
+**Weighting fixed most of that.** I adjusted the responses to match Census numbers by age, gender, and renting. After that, the survey matched the city within 0.1 point.
 
-- **Survey:** [Somerville Happiness Survey Responses](https://data.somervillema.gov/d/wmeh-zuz2), City of Somerville Open Data Portal (12,583 responses, 8 waves)
-- **Benchmarks:** U.S. Census Bureau, American Community Survey 1-year estimates for Somerville city, MA: B01001 (sex by age) and B25003 (tenure). The 2025 wave uses 2024 ACS, the newest available.
+**One "decline" was mostly about who answered.** In the raw data, people seemed to like Somerville less over time. After weighting, the drop was half as big and could have been chance. The mix of people answering had changed, not just their opinions.
 
-Data files are not included in this repo. Download them from the links above and save them as:
-- `data/raw/survey/happiness_survey_2011_2025.csv`
-- `data/raw/census/B01001_[year].csv` and `B25003_[year].csv`
+**For the least happy residents, five things mattered most:** the condition of their housing, worry about being priced out, work opportunities, access to groceries, and relief from summer heat. Together, they made up 77% of what the model could explain.
 
-## Methods
+**Renters carry most of the weight.** 56% of renters are very worried about being priced out of Somerville, compared to 19% of homeowners.
 
-| Step | Script | What it does |
-|---|---|---|
-| 1 | `01_load_clean.R` | Recodes 999 (skipped) to missing, removes under-18s, groups age, gender, and tenure |
-| 2 | `02_census_targets.R` | Builds Census targets and measures representation gaps per wave |
-| 3 | `03_rake_weights.R` | Rakes each wave (age, gender; tenure from 2015), trims weights, checks design effects |
-| 4 | `04_trends.R` | Tests long-running questions for trends, unweighted vs. weighted |
-| 5 | `05_drivers_model.R` | Weighted ordinal regression on 37 ratings (Benjamini-Hochberg correction), then Shapley analysis on the top 10 |
-| 6 | `06_crosstabs.R` | 161 weighted crosstabs by ward, age, tenure, gender, and income; groups under 30 suppressed |
-| 7 | `07_brief_numbers.R` | Key figures for the brief |
-| 8 | `08_tableau_data.R` | Prepares the ward-level file for Tableau |
+## How I did it
 
-**Tools:** R (tidyverse, survey, MASS, writexl), Tableau Public
+I worked in R and built the analysis in eight steps, one script each:
 
-## Limitations
+1. **`01_load_clean.R`** cleans the raw survey: skipped answers coded as 999 become missing, under-18s are removed, and age, gender, and renting are grouped to match the Census.
+2. **`02_census_targets.R`** compares each survey year to the Census to see who's missing.
+3. **`03_rake_weights.R`** weights each year (by age and gender, plus renting from 2015, since it wasn't asked before that) and checks that no single answer counts too much.
+4. **`04_trends.R`** tests whether trends over time still hold after weighting.
+5. **`05_drivers_model.R`** uses weighted ordinal regression to rank 37 city ratings, corrects for testing so many at once, and uses Shapley analysis to fairly split credit among the top 10.
+6. **`06_crosstabs.R`** builds 161 weighted tables by ward, age, renting, gender, and income. Groups with fewer than 30 responses are hidden.
+7. **`07_brief_numbers.R`** pulls the key numbers for the brief.
+8. **`08_tableau_data.R`** prepares the data for the Tableau dashboard.
 
-- 2013 and 2015 had fewer than 200 responses each, so results for those years are less certain.
-- Tenure was not asked in 2011 or 2013, so those waves are weighted on age and gender only.
-- The tenure benchmark uses households, while the survey counts adults, which slightly understates renters' share of adults.
-- Most service questions were asked only in 2025, so the drivers analysis is a one-year, cross-sectional snapshot. Results show associations, not causes.
-- Weighting corrects for age, gender, and tenure only; other differences between respondents and nonrespondents may remain.
+## The data
 
-## Next steps
+- **Survey:** [Somerville Happiness Survey Responses](https://data.somervillema.gov/d/wmeh-zuz2) from the City's Open Data Portal (12,583 responses)
+- **Census:** American Community Survey 1-year estimates for Somerville, tables B01001 (age and sex) and B25003 (renting vs. owning). For the 2025 survey, I used 2024 Census data, since that's the newest available.
 
-- Rerun the drivers model with satisfaction with Somerville as the outcome
-- Test the proportional-odds assumption
-- Use a population-based tenure benchmark (ACS B25008)
+The data files aren't in this repo. If you'd like to rerun the analysis, download them from the links above and save them in a `data/raw/` folder as described at the top of each script.
 
-## Author
+## What to keep in mind
 
-**Vaishnavi Gajarla**, M.S. Data Analytics Engineering, Northeastern University
+- 2013 and 2015 had fewer than 200 responses each, so I'd be careful reading too much into those years.
+- The survey didn't ask about renting in 2011 or 2013, so those years are only weighted by age and gender.
+- The Census renting numbers count households, while the survey counts adults. That probably undercounts renters a little.
+- Most city service questions were only asked in 2025, so the drivers analysis is a snapshot of one year. It shows what goes together with life satisfaction, not what causes it.
+- Weighting only fixes differences I could measure. People who skip the survey may still differ in other ways.
+
+## What I'd do next
+
+After sharing this project, I got a great suggestion: use satisfaction with Somerville as the outcome instead of life satisfaction, since it's more directly tied to city services. That's my next step. I'd also like to test one of the model's key assumptions (proportional odds) and use a better Census benchmark for renters.
+
+## About me
+
+I'm Vaishnavi Gajarla, a Master's student in Data Analytics Engineering at Northeastern University. I'm interested in using data to help cities make better decisions. Feel free to reach out!
+

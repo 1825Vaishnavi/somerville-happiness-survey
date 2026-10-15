@@ -1,0 +1,11 @@
+outcome,change_unweighted,p_unweighted,change_weighted,p_weighted,status
+Happiness,-0.128,0,-0.133,0,Real trend
+Life.Satisfaction,-0.039,0.0062,-0.065,0,Real trend
+Somerville.Satisfaction,-0.058,2e-4,-0.028,0.0851,Fake trend (sample mix)
+Housing.Condition.Satisfaction,-0.102,0.0974,-0.122,0.0623,No trend
+Beauty.Neighborhood.Satisfaction,-0.563,0,-0.518,0,Real trend
+Getting.Around.Convenience.Satisfaction,-0.621,0,-0.569,0,Real trend
+Streets.Maintenance.Satisfaction,-0.627,0,-0.55,0,Real trend
+Social.Community.Events.Satisfaction,0.181,0,0.237,0,Real trend
+Education.Quality.Satisfaction,0.146,0,0.163,0,Real trend
+City.Services.Information.Availability.Satisfaction,-0.469,0,-0.43,0,Real trend

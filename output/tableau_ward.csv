@@ -1,0 +1,284 @@
+Question,Ward,Year,Pct,n
+Happy (rated 4 or 5),Ward 1,2013,NA,21
+Happy (rated 4 or 5),Ward 2,2013,NA,26
+Happy (rated 4 or 5),Ward 3,2013,78.3,32
+Happy (rated 4 or 5),Ward 4,2013,NA,27
+Happy (rated 4 or 5),Ward 5,2013,89.3,30
+Happy (rated 4 or 5),Ward 6,2013,80.2,34
+Happy (rated 4 or 5),Ward 7,2013,NA,23
+Happy (rated 4 or 5),Ward 1,2015,NA,14
+Happy (rated 4 or 5),Ward 2,2015,NA,25
+Happy (rated 4 or 5),Ward 3,2015,85.5,42
+Happy (rated 4 or 5),Ward 4,2015,NA,18
+Happy (rated 4 or 5),Ward 5,2015,88,34
+Happy (rated 4 or 5),Ward 6,2015,NA,22
+Happy (rated 4 or 5),Ward 7,2015,NA,23
+Happy (rated 4 or 5),Ward 1,2017,84.9,88
+Happy (rated 4 or 5),Ward 2,2017,74.8,115
+Happy (rated 4 or 5),Ward 3,2017,81,130
+Happy (rated 4 or 5),Ward 4,2017,78,89
+Happy (rated 4 or 5),Ward 5,2017,76.5,130
+Happy (rated 4 or 5),Ward 6,2017,87.2,134
+Happy (rated 4 or 5),Ward 7,2017,79.5,127
+Happy (rated 4 or 5),Ward 1,2019,79.7,133
+Happy (rated 4 or 5),Ward 2,2019,79.5,232
+Happy (rated 4 or 5),Ward 3,2019,73.5,230
+Happy (rated 4 or 5),Ward 4,2019,71.2,127
+Happy (rated 4 or 5),Ward 5,2019,79.5,199
+Happy (rated 4 or 5),Ward 6,2019,81.4,350
+Happy (rated 4 or 5),Ward 7,2019,76.2,181
+Happy (rated 4 or 5),Ward 1,2021,72.5,145
+Happy (rated 4 or 5),Ward 2,2021,72.2,162
+Happy (rated 4 or 5),Ward 3,2021,64.7,198
+Happy (rated 4 or 5),Ward 4,2021,74.2,135
+Happy (rated 4 or 5),Ward 5,2021,81.6,221
+Happy (rated 4 or 5),Ward 6,2021,76.1,197
+Happy (rated 4 or 5),Ward 7,2021,78,195
+Happy (rated 4 or 5),Ward 1,2023,77.4,90
+Happy (rated 4 or 5),Ward 2,2023,80.9,146
+Happy (rated 4 or 5),Ward 3,2023,75.5,139
+Happy (rated 4 or 5),Ward 4,2023,76.4,94
+Happy (rated 4 or 5),Ward 5,2023,73.7,172
+Happy (rated 4 or 5),Ward 6,2023,82.7,149
+Happy (rated 4 or 5),Ward 7,2023,73.7,135
+Happy (rated 4 or 5),Ward 1,2025,66.9,177
+Happy (rated 4 or 5),Ward 2,2025,71.8,182
+Happy (rated 4 or 5),Ward 3,2025,61.2,183
+Happy (rated 4 or 5),Ward 4,2025,67.9,169
+Happy (rated 4 or 5),Ward 5,2025,66.7,199
+Happy (rated 4 or 5),Ward 6,2025,66.5,182
+Happy (rated 4 or 5),Ward 7,2025,66.5,225
+Satisfied with life,Ward 1,2013,NA,21
+Satisfied with life,Ward 2,2013,NA,26
+Satisfied with life,Ward 3,2013,78.2,32
+Satisfied with life,Ward 4,2013,NA,27
+Satisfied with life,Ward 5,2013,83.4,30
+Satisfied with life,Ward 6,2013,83.5,34
+Satisfied with life,Ward 7,2013,NA,23
+Satisfied with life,Ward 1,2015,NA,14
+Satisfied with life,Ward 2,2015,NA,25
+Satisfied with life,Ward 3,2015,91.6,42
+Satisfied with life,Ward 4,2015,NA,17
+Satisfied with life,Ward 5,2015,91.7,34
+Satisfied with life,Ward 6,2015,NA,22
+Satisfied with life,Ward 7,2015,NA,23
+Satisfied with life,Ward 1,2017,84.2,87
+Satisfied with life,Ward 2,2017,83.7,114
+Satisfied with life,Ward 3,2017,84,130
+Satisfied with life,Ward 4,2017,73.3,89
+Satisfied with life,Ward 5,2017,84.9,130
+Satisfied with life,Ward 6,2017,84.7,134
+Satisfied with life,Ward 7,2017,84.5,128
+Satisfied with life,Ward 1,2019,83.5,133
+Satisfied with life,Ward 2,2019,81.6,229
+Satisfied with life,Ward 3,2019,81.3,233
+Satisfied with life,Ward 4,2019,74.6,128
+Satisfied with life,Ward 5,2019,86.2,198
+Satisfied with life,Ward 6,2019,79.8,349
+Satisfied with life,Ward 7,2019,79.4,180
+Satisfied with life,Ward 1,2021,73,145
+Satisfied with life,Ward 2,2021,78.7,163
+Satisfied with life,Ward 3,2021,73.8,198
+Satisfied with life,Ward 4,2021,83,135
+Satisfied with life,Ward 5,2021,79.3,221
+Satisfied with life,Ward 6,2021,78.5,196
+Satisfied with life,Ward 7,2021,79.2,195
+Satisfied with life,Ward 1,2023,84.1,88
+Satisfied with life,Ward 2,2023,80.8,156
+Satisfied with life,Ward 3,2023,78.5,144
+Satisfied with life,Ward 4,2023,78.8,105
+Satisfied with life,Ward 5,2023,80.6,183
+Satisfied with life,Ward 6,2023,83.2,153
+Satisfied with life,Ward 7,2023,84.6,146
+Satisfied with life,Ward 1,2025,76.8,183
+Satisfied with life,Ward 2,2025,81.7,192
+Satisfied with life,Ward 3,2025,75.8,186
+Satisfied with life,Ward 4,2025,72.2,179
+Satisfied with life,Ward 5,2025,79,207
+Satisfied with life,Ward 6,2025,77.6,188
+Satisfied with life,Ward 7,2025,77.3,233
+Satisfied with Somerville,Ward 1,2013,NA,21
+Satisfied with Somerville,Ward 2,2013,NA,26
+Satisfied with Somerville,Ward 3,2013,87.2,32
+Satisfied with Somerville,Ward 4,2013,NA,27
+Satisfied with Somerville,Ward 5,2013,89.5,30
+Satisfied with Somerville,Ward 6,2013,67.1,34
+Satisfied with Somerville,Ward 7,2013,NA,23
+Satisfied with Somerville,Ward 1,2015,NA,14
+Satisfied with Somerville,Ward 2,2015,NA,26
+Satisfied with Somerville,Ward 3,2015,86.9,42
+Satisfied with Somerville,Ward 4,2015,NA,18
+Satisfied with Somerville,Ward 5,2015,88,34
+Satisfied with Somerville,Ward 6,2015,NA,22
+Satisfied with Somerville,Ward 7,2015,NA,23
+Satisfied with Somerville,Ward 1,2017,82.4,90
+Satisfied with Somerville,Ward 2,2017,82.9,114
+Satisfied with Somerville,Ward 3,2017,88.2,130
+Satisfied with Somerville,Ward 4,2017,81.4,91
+Satisfied with Somerville,Ward 5,2017,84.9,131
+Satisfied with Somerville,Ward 6,2017,96.6,134
+Satisfied with Somerville,Ward 7,2017,91.8,128
+Satisfied with Somerville,Ward 1,2019,77.9,132
+Satisfied with Somerville,Ward 2,2019,80.4,232
+Satisfied with Somerville,Ward 3,2019,79.1,232
+Satisfied with Somerville,Ward 4,2019,70.5,129
+Satisfied with Somerville,Ward 5,2019,80.7,199
+Satisfied with Somerville,Ward 6,2019,83.7,349
+Satisfied with Somerville,Ward 7,2019,80.9,185
+Satisfied with Somerville,Ward 1,2021,64.7,146
+Satisfied with Somerville,Ward 2,2021,73.2,164
+Satisfied with Somerville,Ward 3,2021,69.9,196
+Satisfied with Somerville,Ward 4,2021,76,134
+Satisfied with Somerville,Ward 5,2021,81.5,223
+Satisfied with Somerville,Ward 6,2021,79.4,196
+Satisfied with Somerville,Ward 7,2021,76,194
+Satisfied with Somerville,Ward 1,2023,77.3,90
+Satisfied with Somerville,Ward 2,2023,80.3,158
+Satisfied with Somerville,Ward 3,2023,77.8,144
+Satisfied with Somerville,Ward 4,2023,69,104
+Satisfied with Somerville,Ward 5,2023,82,182
+Satisfied with Somerville,Ward 6,2023,89.1,152
+Satisfied with Somerville,Ward 7,2023,80.1,146
+Satisfied with Somerville,Ward 1,2025,72.2,186
+Satisfied with Somerville,Ward 2,2025,85.7,191
+Satisfied with Somerville,Ward 3,2025,73.5,188
+Satisfied with Somerville,Ward 4,2025,78.7,179
+Satisfied with Somerville,Ward 5,2025,83.3,208
+Satisfied with Somerville,Ward 6,2025,80.2,188
+Satisfied with Somerville,Ward 7,2025,80,235
+Happy with housing condition,Ward 1,2019,83.8,128
+Happy with housing condition,Ward 2,2019,72.2,230
+Happy with housing condition,Ward 3,2019,76.3,228
+Happy with housing condition,Ward 4,2019,67.2,124
+Happy with housing condition,Ward 5,2019,79.9,200
+Happy with housing condition,Ward 6,2019,75.3,348
+Happy with housing condition,Ward 7,2019,79.4,181
+Happy with housing condition,Ward 1,2021,75,146
+Happy with housing condition,Ward 2,2021,76.6,164
+Happy with housing condition,Ward 3,2021,69.2,198
+Happy with housing condition,Ward 4,2021,72.8,130
+Happy with housing condition,Ward 5,2021,75.2,221
+Happy with housing condition,Ward 6,2021,67,194
+Happy with housing condition,Ward 7,2021,73.7,193
+Happy with housing condition,Ward 1,2023,65.5,91
+Happy with housing condition,Ward 2,2023,58.6,158
+Happy with housing condition,Ward 3,2023,59.4,146
+Happy with housing condition,Ward 4,2023,65.2,104
+Happy with housing condition,Ward 5,2023,64.6,180
+Happy with housing condition,Ward 6,2023,61.9,153
+Happy with housing condition,Ward 7,2023,58.7,146
+Happy with housing condition,Ward 1,2025,73.5,181
+Happy with housing condition,Ward 2,2025,73.5,191
+Happy with housing condition,Ward 3,2025,74.4,187
+Happy with housing condition,Ward 4,2025,77.5,175
+Happy with housing condition,Ward 5,2025,78.7,207
+Happy with housing condition,Ward 6,2025,76.5,186
+Happy with housing condition,Ward 7,2025,76.1,234
+Very worried about being priced out,Ward 1,2023,48.4,89
+Very worried about being priced out,Ward 2,2023,52.6,156
+Very worried about being priced out,Ward 3,2023,46.2,142
+Very worried about being priced out,Ward 4,2023,47.9,98
+Very worried about being priced out,Ward 5,2023,44.5,179
+Very worried about being priced out,Ward 6,2023,41.1,150
+Very worried about being priced out,Ward 7,2023,49.7,143
+Very worried about being priced out,Ward 1,2025,48.8,177
+Very worried about being priced out,Ward 2,2025,45.7,189
+Very worried about being priced out,Ward 3,2025,43.1,185
+Very worried about being priced out,Ward 4,2025,42.8,178
+Very worried about being priced out,Ward 5,2025,42.9,204
+Very worried about being priced out,Ward 6,2025,41.1,185
+Very worried about being priced out,Ward 7,2025,45.3,232
+Happy with work opportunities,Ward 1,2025,28.7,144
+Happy with work opportunities,Ward 2,2025,38.8,156
+Happy with work opportunities,Ward 3,2025,30.5,158
+Happy with work opportunities,Ward 4,2025,34.8,156
+Happy with work opportunities,Ward 5,2025,36.9,174
+Happy with work opportunities,Ward 6,2025,24.7,149
+Happy with work opportunities,Ward 7,2025,31.8,193
+Happy with grocery access,Ward 1,2025,69.7,183
+Happy with grocery access,Ward 2,2025,83.7,190
+Happy with grocery access,Ward 3,2025,85.2,185
+Happy with grocery access,Ward 4,2025,75.7,179
+Happy with grocery access,Ward 5,2025,77.4,207
+Happy with grocery access,Ward 6,2025,68.4,187
+Happy with grocery access,Ward 7,2025,65.5,235
+Happy with relief from heat,Ward 1,2025,61.4,175
+Happy with relief from heat,Ward 2,2025,64.9,179
+Happy with relief from heat,Ward 3,2025,68.2,181
+Happy with relief from heat,Ward 4,2025,64.2,167
+Happy with relief from heat,Ward 5,2025,72.9,199
+Happy with relief from heat,Ward 6,2025,71,176
+Happy with relief from heat,Ward 7,2025,66.5,223
+Happy with restaurants and shops,Ward 1,2025,69.1,182
+Happy with restaurants and shops,Ward 2,2025,86.8,192
+Happy with restaurants and shops,Ward 3,2025,79.5,187
+Happy with restaurants and shops,Ward 4,2025,68.7,177
+Happy with restaurants and shops,Ward 5,2025,80.7,208
+Happy with restaurants and shops,Ward 6,2025,81.9,185
+Happy with restaurants and shops,Ward 7,2025,72.7,233
+Able to meet basic needs,Ward 1,2025,83.9,181
+Able to meet basic needs,Ward 2,2025,91,189
+Able to meet basic needs,Ward 3,2025,88.8,187
+Able to meet basic needs,Ward 4,2025,85.7,177
+Able to meet basic needs,Ward 5,2025,91,208
+Able to meet basic needs,Ward 6,2025,93.6,186
+Able to meet basic needs,Ward 7,2025,85.3,231
+Happy with health services,Ward 1,2025,52.9,181
+Happy with health services,Ward 2,2025,73.2,183
+Happy with health services,Ward 3,2025,73.7,186
+Happy with health services,Ward 4,2025,63.9,174
+Happy with health services,Ward 5,2025,74.2,200
+Happy with health services,Ward 6,2025,73.1,186
+Happy with health services,Ward 7,2025,67.3,232
+Happy with public spaces,Ward 1,2025,67.8,180
+Happy with public spaces,Ward 2,2025,73.1,187
+Happy with public spaces,Ward 3,2025,77.3,184
+Happy with public spaces,Ward 4,2025,74,178
+Happy with public spaces,Ward 5,2025,73.4,206
+Happy with public spaces,Ward 6,2025,77,183
+Happy with public spaces,Ward 7,2025,67.5,231
+Happy with arts and culture,Ward 1,2025,54.2,159
+Happy with arts and culture,Ward 2,2025,63.9,176
+Happy with arts and culture,Ward 3,2025,64.7,168
+Happy with arts and culture,Ward 4,2025,66.5,164
+Happy with arts and culture,Ward 5,2025,75.3,186
+Happy with arts and culture,Ward 6,2025,71.1,172
+Happy with arts and culture,Ward 7,2025,70.1,216
+Happy (rated 4 or 5),Citywide,2011,77.9,6039
+Happy (rated 4 or 5),Citywide,2013,81,193
+Happy (rated 4 or 5),Citywide,2015,82.8,185
+Happy (rated 4 or 5),Citywide,2017,79.7,826
+Happy (rated 4 or 5),Citywide,2019,78,1462
+Happy (rated 4 or 5),Citywide,2021,74.4,1262
+Happy (rated 4 or 5),Citywide,2023,76.6,934
+Happy (rated 4 or 5),Citywide,2025,66.8,1322
+Satisfied with life,Citywide,2011,79.7,6038
+Satisfied with life,Citywide,2013,80.5,193
+Satisfied with life,Citywide,2015,88.1,184
+Satisfied with life,Citywide,2017,82.9,825
+Satisfied with life,Citywide,2019,81,1460
+Satisfied with life,Citywide,2021,77.8,1262
+Satisfied with life,Citywide,2023,81.2,985
+Satisfied with life,Citywide,2025,77.4,1375
+Satisfied with Somerville,Citywide,2011,79.8,5898
+Satisfied with Somerville,Citywide,2013,81.6,193
+Satisfied with Somerville,Citywide,2015,86.2,186
+Satisfied with Somerville,Citywide,2017,86.6,831
+Satisfied with Somerville,Citywide,2019,80.1,1468
+Satisfied with Somerville,Citywide,2021,74.8,1262
+Satisfied with Somerville,Citywide,2023,79.7,986
+Satisfied with Somerville,Citywide,2025,79.3,1382
+Happy with housing condition,Citywide,2019,76.2,1449
+Happy with housing condition,Citywide,2021,72.7,1255
+Happy with housing condition,Citywide,2023,61.4,988
+Happy with housing condition,Citywide,2025,75.8,1368
+Very worried about being priced out,Citywide,2023,47.4,967
+Very worried about being priced out,Citywide,2025,44.2,1357
+Happy with work opportunities,Citywide,2025,32.4,1137
+Happy with grocery access,Citywide,2025,75,1373
+Happy with relief from heat,Citywide,2025,66.9,1307
+Happy with restaurants and shops,Citywide,2025,77.2,1371
+Able to meet basic needs,Citywide,2025,88.5,1366
+Happy with health services,Citywide,2025,68.5,1348
+Happy with public spaces,Citywide,2025,72.5,1356
+Happy with arts and culture,Citywide,2025,66.6,1248

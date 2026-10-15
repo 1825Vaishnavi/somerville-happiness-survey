@@ -2,7 +2,7 @@
 
 An independent analysis of the City of Somerville's Happiness Survey (2011–2025): checking who the survey hears from, correcting for nonresponse, and identifying what matters most to the city's least-happy residents.
 
-** [Interactive Tableau dashboard (filterable by ward)](https://public.tableau.com/views/SomervilleHappinessSurveybyWard/Dashboard1)**
+ [Interactive Tableau dashboard (filterable by ward)](https://public.tableau.com/views/SomervilleHappinessSurveybyWard/Dashboard1)
 **📄 [6-page policy brief (PDF)](brief/)**
 
 *This is an independent analysis of public data, not an official City of Somerville report.*
